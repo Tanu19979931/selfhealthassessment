@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+/* color variables */
+/* border radius */
+ *, *::before, *::after {
+	 box-sizing: border-box;
+	 margin: 0;
+	 padding: 0;
+}
+ body {
+	 font-family: Oxygen, sans-serif;
+	 margin: 2rem;
+}
+.headings_prediction_div{
+	/* background-color: rgb(141, 38, 19);
+	border: 2px solid rgb(47, 25, 240); */
+	width: 650px;
+	font-size: 30px;
+	margin: 20px auto;
+	font-weight: bolder;
+}
+ .wrapper {
+	 display: flex;
+	 flex-direction: row; 
+	 flex-wrap: wrap;
+	 justify-content: center;
+	 align-items: center;
+	 /* height: 544px; */
+    width: 100%;
+    margin-top: 20px;
+	/* border: 2px solid red; */
+}
+
+ .card {
+	width: 400px;
+	height: 500px;
+	background-color: rgb(169 16 65);
+	/* border: 2px solid green; */
+	margin: 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	box-shadow: 0 2px 20px rgb(192, 97, 127);
+	transition: transform 200ms ease-in;
+
+}
+.card__image {
+	width: 100%;
+	height: 250px;
+	object-fit:fill;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+	}
+.card__body{
+	width: 100%;
+	height: 200px;
+	margin-top: 10px;
+	/* background-color: yellowgreen; */
+	align-items: center;
+	justify-content: center;
+}
+
+ .card__title {
+	/* margin-top: 20px; */
+	font-size: 22px;
+	height: 40px;
+	text-align: center;
+	padding-top: 5px;
+	font-weight: bolder;
+	color: #fcfcfc;
+	/* background-color: rgb(87, 169, 207);
+	border: 2px solid rgb(192, 235, 91); */
+}
+ .card__description {
+	font-size: 18px;
+	text-align: justify;
+	padding: 8px;
+	color: #fcfcfc;
+	height: 100px;
+}
+.card__btn__div{
+	flex-direction: row;
+	text-align: center;
+	justify-content: flex-end;
+	background-color: #15516D;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	/* border: 2px solid rgb(192, 235, 91); */
+
+}
+#triangle-left {
+	width: 0;
+	height: 0;
+	float:right;
+	border-top: 23px solid transparent;
+	border-right: 46px solid rgb(169 16 65);
+	border-bottom: 23px solid transparent;
+  }
+#triangle-right {
+	width: 0;
+	height: 0;
+	float: left;
+	border-top: 23px solid transparent;
+	border-left:46px solid rgb(169 16 65);
+	border-bottom: 23px solid transparent;
+  }
+ .card__btn {
+    padding: 8px 30px;
+	border-radius: 6px;
+
+	 margin: 2px auto;
+	 align-self: center;
+	 color: rgb(192, 105, 89);
+	 
+}
+.card__btn:hover{
+	background-color: rgb(240, 73, 101);
+	color: #fcfcfc;
+}
+ .card:hover {
+	transform: scale(1.02);
+}
+ .card:hover .card__btn {
+	transform: scale(1.02);
+}
+.link {
+	color: tomato;
+	margin-top: 5px;
+	margin-bottom: 5px;
+  }
+  .card:hover .link{
+
+  }
+.link:hover {
+
+  }
+
+ 

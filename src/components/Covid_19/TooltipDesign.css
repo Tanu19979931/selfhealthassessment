@@ -1,0 +1,23 @@
+.mainContainer{
+    width: 200px;
+}
+.DataContainer{
+    padding: 15px;
+}
+.DataContainercc{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.DataContainerccval{
+    font-weight: bolder;
+    font-size: 18px;
+    color: red;
+}
+.DataContainerccnull{
+    width: 150px;
+    height: 150px;
+}
+.imgCont{
+    width: 200px;
+    margin-top: 20px;
+}

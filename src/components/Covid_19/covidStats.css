@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+/* color variables */
+/* border radius */
+ *, *::before, *::after {
+	 box-sizing: border-box;
+	 margin: 0;
+	 padding: 0;
+}
+ body {
+	 font-family: Oxygen, sans-serif;
+}
+.cwd_main{
+/* background-color: #BDD703; */
+align-items: center;
+justify-content: center;
+}
+.cwd_heading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family:cursive;
+    color: #5F337E;
+}
+.cwd_container{
+    display:grid;
+	 /* grid-template-columns: repeat(auto-fit, minmax(27rem, 21rem)); */
+     grid-column: 1;
+     width: 100%;
+	 gap: 20rem;
+	 justify-content: center;
+     margin-top: 20px;
+     /* background-color: chartreuse; */
+}
+.cwd_card{
+    overflow: hidden;
+    box-shadow: 0 4px 22px #729af8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 95vw;
+    transition: transform 200ms ease-in;
+    /* background-color: aqua; */
+    border-radius: 10px;
+}
+.cwd_card_countryName{
+    /* background-color: violet; */
+    margin-left: 20px;
+    justify-content: center;
+    padding: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    color: chocolate;
+    width: 15vw;
+    /* background-color: yellow; */
+}
+.cwd_card_image{
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+    /* background-color: violet; */
+}
+.cwd_card_confCases{
+flex-direction: column;
+/* background-color: violet; */
+justify-content: center;
+    padding: 60px;
+    font-size: 27px;
+    font-weight: bold;
+    color: #BDD703;
+}
+.cwd_card_confCases_title{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cwd_card_confCases_val{
+align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cwd_card_confDeaths{
+    flex-direction: column;
+    /* background-color: violet; */
+    margin-right: 20px;
+    justify-content: center;
+    padding: 60px;
+    font-size: 27px;
+    font-weight: bold;
+    color: #D70D03;
+}
+.cwd_card_confDeaths_title{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.cwd_card_confDeaths_val{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.cwd_heading_details{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family:cursive;
+    color: #0bb9b9;
+}

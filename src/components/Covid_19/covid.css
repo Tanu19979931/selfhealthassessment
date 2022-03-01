@@ -1,0 +1,50 @@
+.top_container{
+    background-image: url('../../assets/covid-19-backGround.jpg');
+    width: 100%;
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+}
+.top_background{
+    position:relative;
+    /* background-image: url('../../assets/covid-19-backGround.jpg'); */
+    width: 100%;
+    height: 600px;
+    /* margin-top: 10px; */
+}
+.top_background_img{
+    /* object-fit: fill; */
+}
+.bg_title{
+    text-align: center;
+    margin-right: 30px;
+    font-size: 60px;
+    color: rgb(212, 49, 85);
+    margin-top: 10px;
+}
+.bg_stats{
+    margin-top: 40px;
+}
+.bg_confirmed_cases{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 40px;
+    color: rgb(230, 23, 23);
+    display: inline-block;
+    width: 66vw;
+    white-space: pre-line;
+    font-family: 'Brush Script MT', cursive;
+}
+.bg_confirmed_deaths{
+    text-align: right;
+    margin-right: 30px;
+    font-size: 40px;
+    color: rgb(230, 23, 23);
+    display: inline-block;
+    white-space: pre-line;
+    font-family: 'Brush Script MT', cursive;
+   
+}
