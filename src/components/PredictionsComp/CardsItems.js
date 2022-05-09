@@ -12,15 +12,15 @@ export const CardsItems =[
     },
     {
         img : Diabities,
-        title : "Predict Diabities",
+        title : "Predict Diabetes",
         description : "It contains the form to fill the details required to predict Diabities using machine learning model",
-        url : '#'
+        url : '/Predict_diabetes'
     },
     {
         img : BreastCancer,
         title : "Predict Breast Cancer",
         description : "It contains the form to fill the details required to predict Breast Cancer using machine learning model",
-        url : '#'
+        url : '/Predict_breast_cancer'
     },
     {
         img :BrainDiseaase,

@@ -5,16 +5,16 @@ export const MenuItems =[
         cName : 'nav-links'
 
     },
-    {
-        title : 'Know about disease',
-        url :'#',
-        cName : 'nav-links'
+    // {
+    //     title : 'Know about disease',
+    //     url :'#',
+    //     cName : 'nav-links'
 
-    },
+    // },
     
     {
         title : 'Self-care',
-        url :'#',
+        url :'/Self_Care',
         cName : 'nav-links'
 
     },
@@ -25,12 +25,12 @@ export const MenuItems =[
         cName : 'nav-links'
 
     },
-    {
-        title : 'Cunsultant',
-        url :'/Consultant',
-        cName : 'nav-links'
+    // {
+    //     title : 'Cunsultant',
+    //     url :'/Consultant',
+    //     cName : 'nav-links'
 
-    },
+    // },
     
 
 ]
