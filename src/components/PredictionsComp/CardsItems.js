@@ -8,7 +8,7 @@ export const CardsItems =[
         img :heartDisease,
         title : "Predict Heart Disease",
         description : "It contains the form to fill the details required to predict Heart Disease using machine learning model",
-        url : '#'
+        url : '/Predict_heart_disease'
     },
     {
         img : Diabities,
@@ -26,7 +26,7 @@ export const CardsItems =[
         img :BrainDiseaase,
         title : "Predict Brain Disease",
         description : "It contains the form to fill the details required to predict Brain Disease using machine learning model",
-        url : '#'
+        url : '/Predict_brain_disease'
     },
     // {
     //     img : "https://images.unsplash.com/photo-1476124369491-e7addf5db371?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",

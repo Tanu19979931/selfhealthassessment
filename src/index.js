@@ -21,6 +21,8 @@ import TDEE from './components/Self_Care/components/TDEE';
 import Covid19News from './components/Covid_19/Covid19News';
 import Predict_Breast_Cancer from './components/PredictionsComp/components/Predict_Breast_Cancer';
 import Predict_Diabetes from './components/PredictionsComp/components/Predict_Diabetes';
+import Predict_Brain_Disease from './components/PredictionsComp/components/Predict_Brain_Disease';
+import Predict_Heart_Disease from './components/PredictionsComp/components/Predict_Heart_Disease';
 ReactDOM.render(
   <BrowserRouter>
   <Routes>
@@ -39,7 +41,8 @@ ReactDOM.render(
       <Route path="/Self_Care/BFP" element={<BFP/>} />
       <Route path="/Self_Care/TDEE" element={<TDEE/>} />
       <Route path="/Covid19/Covid19News" element={<Covid19News/>} />
-      
+      <Route path="/Predict_brain_disease" element={<Predict_Brain_Disease/>} />
+      <Route path="/Predict_heart_disease" element= {<Predict_Heart_Disease/>} />
       </Route>
       
     </Routes>

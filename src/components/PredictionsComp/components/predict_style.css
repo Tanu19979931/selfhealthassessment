@@ -217,3 +217,227 @@ width : 270px;
     font-size: 18px;
     letter-spacing: 2px;
 }
+
+/* Brain Disease  */
+
+.BD_container{
+    /* background-color: black; */
+    background-image: url('../../../assets/P_B_C.jpg');
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* position: absolute; */
+}
+
+.BD_heading{
+    margin-top: 20px;
+    font-weight: bolder;
+    color: #093254;
+}
+.BD_mid_cont{
+    width: 98%;
+    margin-left: 20px;
+    margin-top: 40px;
+    height: 540px;
+    background-color: #090A54;
+    border-radius: 20px;
+    /* position: absolute; */
+}
+
+.BD_rows{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.BD_input_divs{
+    /* width: 260px; */
+    /* height: 50px; */
+    margin-top: 10px;
+     /* margin-left: 5px;  */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+    padding: 10px;
+    color: #fcfcfc;
+    /* background-color: rgb(36, 36, 32); */
+    text-align: center;
+
+}
+.BD_lables{
+/* background-color : #000000;  */
+width : 230px;
+ margin-right : 5px;
+ height: 30px;
+ font-size: 17px;
+ font-weight: bold;
+}
+.BD_inputs{
+    /* background-color: yellow; */
+    height: 30px;
+    width : 140px;
+    font-size: 17px;
+    border: 1px solid #fcfcfc;
+    text-align: center;
+    color: #fcfcfc;
+}
+.BD_predict_div{
+    width: 200px;
+    height: 40px;
+    margin-left: 45%;
+    margin-top: 20px;
+align-self: center;
+background-color: #F99B1B;
+color: #fcfcfc;
+text-align: center;
+padding: 8px;
+border-radius: 10px;
+font-weight: bolder;
+font-size: 18px;
+letter-spacing: 2px;
+}
+.BD_result_div_pos{
+    width: 800px;
+    height: 40px;
+    margin-left: 27%;
+    margin-top: 20px;
+    align-self: center;
+    background-color: #F91B29;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.BD_result_div_neg{
+    width: 800px;
+    height: 40px;
+    margin-left: 27%;
+    margin-top: 20px;
+    align-self: center;
+    background-color: #29B44B;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+/* Heart Disease  */
+
+.HD_container{
+    /* background-color: black; */
+    background-image: url('../../../assets/P_B_C.jpg');
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* position: absolute; */
+}
+
+.HD_heading{
+    margin-top: 20px;
+    font-weight: bolder;
+    color: #093254;
+}
+.HD_mid_cont{
+    width: 98%;
+    margin-left: 20px;
+    margin-top: 40px;
+    height: 420px;
+    background-color: #090A54;
+    border-radius: 20px;
+    /* position: absolute; */
+}
+
+.HD_rows{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.HD_input_divs{
+    /* width: 260px; */
+    /* height: 50px; */
+    margin-top: 10px;
+     /* margin-left: 5px;  */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+    padding: 10px;
+    color: #fcfcfc;
+    /* background-color: rgb(36, 36, 32); */
+    text-align: center;
+
+}
+.HD_lables{
+/* background-color : #000000;  */
+width : 230px;
+ margin-right : 5px;
+ height: 30px;
+ font-size: 17px;
+ font-weight: bold;
+}
+.HD_inputs{
+    /* background-color: yellow; */
+    height: 30px;
+    width : 140px;
+    font-size: 17px;
+    border: 1px solid #fcfcfc;
+    text-align: center;
+    color: #fcfcfc;
+}
+.HD_predict_div{
+    width: 200px;
+    height: 40px;
+    margin-left: 45%;
+    margin-top: 20px;
+align-self: center;
+background-color: #F99B1B;
+color: #fcfcfc;
+text-align: center;
+padding: 8px;
+border-radius: 10px;
+font-weight: bolder;
+font-size: 18px;
+letter-spacing: 2px;
+}
+.HD_result_div_pos{
+    width: 800px;
+    height: 40px;
+    margin-left: 27%;
+    margin-top: 20px;
+    align-self: center;
+    background-color: #F91B29;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.HD_result_div_neg{
+    width: 800px;
+    height: 40px;
+    margin-left: 27%;
+    margin-top: 20px;
+    align-self: center;
+    background-color: #29B44B;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
