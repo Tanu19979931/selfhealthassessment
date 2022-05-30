@@ -114,7 +114,7 @@ export default class Predict_Breast_Cancer extends Component {
 
     var res_pre = await axios.post("http://127.0.0.1:5000/predict_BCancer", d);
     console.log(res_pre);
-    if (res_pre.data === "1") {
+    if (res_pre.data === "0") {
       console.log("Positive");
       this.setState({loading: false, got_result : true , result : true})
     } else {
